@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="reembolso">0dd4411c839f92103cf0c4b6feaad3e8</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>reembolso_solicitante</sys_created_by>
+        <sys_created_on>2025-01-20 19:55:59</sys_created_on>
+        <sys_id>066ad2908397d2103cf0c4b6feaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScopedGlideElement</sys_name>
+        <sys_package display_value="reembolso" source="x_1593175_reembo_0">0dd4411c839f92103cf0c4b6feaad3e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="reembolso">0dd4411c839f92103cf0c4b6feaad3e8</sys_scope>
+        <sys_update_name>sys_scope_privilege_066ad2908397d2103cf0c4b6feaad392</sys_update_name>
+        <sys_updated_by>reembolso_solicitante</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:55:59</sys_updated_on>
+        <target_name>ScopedGlideElement</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>

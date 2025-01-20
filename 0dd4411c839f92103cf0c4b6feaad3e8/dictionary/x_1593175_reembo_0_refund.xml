@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ae4625d88353d2103cf0c4b6feaad354" extends="task" label="Refund" max_length="40" name="x_1593175_reembo_0_refund" type="collection">
+        <element label="Value" max_length="40" name="value" type="float"/>
+        <element label="Reproval Reason" max_length="250" name="reproval_reason" type="string"/>
+        <element label="Category" max_length="32" name="category" reference="x_1593175_reembo_0_category" type="reference"/>
+        <element label="Refund Description" max_length="400" name="refund_description" type="string"/>
+        <element label="Expense Date" max_length="40" name="expense_date" type="glide_date"/>
+        <element label="Dolar" max_length="40" name="dolar" type="float"/>
+    </element>
+</database>
