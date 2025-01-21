@@ -3,8 +3,8 @@
         <element label="Value" max_length="20" name="value" type="currency"/>
         <element label="Reproval Reason" max_length="250" name="reproval_reason" type="string"/>
         <element label="Category" max_length="32" name="category" reference="x_1593175_reembo_0_category" type="reference"/>
+        <element label="Dolar" max_length="40" name="dolar" type="float"/>
         <element label="Refund Description" max_length="400" name="refund_description" type="string"/>
         <element label="Expense Date" max_length="40" name="expense_date" type="glide_date"/>
-        <element label="Dolar" max_length="40" name="dolar" type="currency"/>
     </element>
 </database>
