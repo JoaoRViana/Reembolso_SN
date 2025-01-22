@@ -48,7 +48,8 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>value,dolar,expense_date,category,sys_updated_on,state</field_list>
-        <filter table="x_1593175_reembo_0_refund">stateIN1,2,5<item display_value="1,2,5" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="1,2,5"/>
+        <filter table="x_1593175_reembo_0_refund">stateIN1,2^EQ<item display_value="1,2" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="1,2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
@@ -109,14 +110,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 12:54:35</sys_created_on>
         <sys_id>e42dcbb8831396103cf0c4b6feaad3eb</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Peding Refunds</sys_name>
         <sys_package display_value="reembolso" source="x_1593175_reembo_0">0dd4411c839f92103cf0c4b6feaad3e8</sys_package>
         <sys_policy/>
         <sys_scope display_value="reembolso">0dd4411c839f92103cf0c4b6feaad3e8</sys_scope>
         <sys_update_name>sys_report_e42dcbb8831396103cf0c4b6feaad3eb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 13:08:06</sys_updated_on>
+        <sys_updated_on>2025-01-22 20:55:27</sys_updated_on>
         <table>x_1593175_reembo_0_refund</table>
         <title>Peding Refunds</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
