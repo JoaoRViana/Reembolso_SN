@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">e1599370839396103cf0c4b6feaad3e0</canvas>
+        <component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component>
+        <component_props>{"table":"task","columnPreferenceKey":"","fixedQuery":"","followFilters":true,"listTitle":"All Active Tasks","columns":"","query":"active=true","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"showBorder":true,"bare":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"nrlLandmark":true,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"isDashboard":true,"id":"bare","value":false,"noDebounce":true,"propLabel":"Bare"}</component_props>
+        <h>13</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 14:43:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>22162bb083d396103cf0c4b6feaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="reembolso" source="x_1593175_reembo_0">0dd4411c839f92103cf0c4b6feaad3e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="reembolso">0dd4411c839f92103cf0c4b6feaad3e8</sys_scope>
+        <sys_update_name>par_dashboard_widget_22162bb083d396103cf0c4b6feaad3cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 14:43:40</sys_updated_on>
+        <visualization/>
+        <w>17</w>
+        <widget_props/>
+        <x>14</x>
+        <y>14</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="reembolso">0dd4411c839f92103cf0c4b6feaad3e8</application>
+        <file_path/>
+        <instance_id>23596efddb36f55002d91729139619f7</instance_id>
+        <instance_name>dev228991</instance_name>
+        <name>par_dashboard_widget_22162bb083d396103cf0c4b6feaad3cb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">e1599370839396103cf0c4b6feaad3e0</canvas><component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component><component_props>{"table":"task","columnPreferenceKey":"","fixedQuery":"","followFilters":true,"listTitle":"All Active Tasks","columns":"","query":"active=true","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"showBorder":true,"bare":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"nrlLandmark":true,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"isDashboard":true,"id":"bare","value":false,"noDebounce":true,"propLabel":"Bare"}</component_props><h>13</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-22 14:43:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>22162bb083d396103cf0c4b6feaad3cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="reembolso" source="x_1593175_reembo_0">0dd4411c839f92103cf0c4b6feaad3e8</sys_package><sys_policy/><sys_scope display_value="reembolso">0dd4411c839f92103cf0c4b6feaad3e8</sys_scope><sys_update_name>par_dashboard_widget_22162bb083d396103cf0c4b6feaad3cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-22 14:43:40</sys_updated_on><visualization/><w>17</w><widget_props/><x>14</x><y>14</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>156603000</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>dfb8451083df92103cf0c4b6feaad3a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 14:43:40</sys_created_on>
+        <sys_id>ee162bb083d396103cf0c4b6feaad3cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948e780fbd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 14:43:40</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>e2162bb033d39610207f5ccfecdeeccc</update_guid>
+        <update_guid_history>e2162bb033d39610207f5ccfecdeeccc:156603000</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">1499efb483d396103cf0c4b6feaad3ad</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 14:58:49</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>248ed9632b584260b6733e922f4d5900</sys_id>
+        <sys_metadata>22162bb083d396103cf0c4b6feaad3cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="reembolso" source="x_1593175_reembo_0">0dd4411c839f92103cf0c4b6feaad3e8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="reembolso">0dd4411c839f92103cf0c4b6feaad3e8</sys_scope>
+        <sys_scope_delete display_value="">2e3ebec1281d46ea8b8c5e44f60dd079</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_22162bb083d396103cf0c4b6feaad3cb</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_22162bb083d396103cf0c4b6feaad3cb">ee162bb083d396103cf0c4b6feaad3cc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 14:58:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

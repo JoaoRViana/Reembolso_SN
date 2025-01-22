@@ -7,14 +7,14 @@
         <hint/>
         <name/>
         <order>100</order>
-        <roles/>
+        <roles>x_1593175_reembo_0.resolvedor_de_rh,x_1593175_reembo_0.gerente_rh</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 16:25:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f73a65508393d2103cf0c4b6feaad302</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Refund</sys_name>
         <sys_overrides/>
         <sys_package display_value="reembolso" source="x_1593175_reembo_0">0dd4411c839f92103cf0c4b6feaad3e8</sys_package>
@@ -22,7 +22,7 @@
         <sys_scope display_value="reembolso">0dd4411c839f92103cf0c4b6feaad3e8</sys_scope>
         <sys_update_name>sys_app_application_f73a65508393d2103cf0c4b6feaad302</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 16:25:41</sys_updated_on>
+        <sys_updated_on>2025-01-22 15:23:58</sys_updated_on>
         <title>Refund</title>
         <view_name/>
     </sys_app_application>

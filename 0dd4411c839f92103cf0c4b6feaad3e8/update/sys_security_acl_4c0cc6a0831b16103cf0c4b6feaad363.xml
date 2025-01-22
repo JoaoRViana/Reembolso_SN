@@ -2,28 +2,43 @@
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
         <admin_overrides>true</admin_overrides>
-        <advanced>false</advanced>
+        <advanced>true</advanced>
         <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
-        <description/>
+        <description>Allow read for records in x_1593175_reembo_0_refund, for users with roles (x_1593175_reembo_0.gerente_rh, x_1593175_reembo_0.resolvedor_de_rh, x_1593175_reembo_0.solicitante_de_reembolso), and if the ACL script returns true.</description>
         <local_or_existing>Local</local_or_existing>
         <name>x_1593175_reembo_0_refund</name>
         <operation display_value="read">read</operation>
-        <script/>
+        <script><![CDATA[answer = false;
+var user = gs.getUser();
+if(user.isMemberOf(current.assignment_group.sys_id.toString()) || user.hasRole("x_1593175_reembo_0.gerente_rh") || current.opened_by.sys_id.toString() == gs.getUserID().toString()){
+	answer = true;
+}]]></script>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-21 13:35:15</sys_created_on>
         <sys_id>4c0cc6a0831b16103cf0c4b6feaad363</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>x_1593175_reembo_0_refund</sys_name>
         <sys_package display_value="reembolso" source="x_1593175_reembo_0">0dd4411c839f92103cf0c4b6feaad3e8</sys_package>
         <sys_policy/>
         <sys_scope display_value="reembolso">0dd4411c839f92103cf0c4b6feaad3e8</sys_scope>
         <sys_update_name>sys_security_acl_4c0cc6a0831b16103cf0c4b6feaad363</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 13:35:15</sys_updated_on>
+        <sys_updated_on>2025-01-22 14:29:54</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>4c0cc6a0831b16103cf0c4b6feaad363</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 13:22:01</sys_created_on>
+        <sys_id>ea639738835396103cf0c4b6feaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 13:22:01</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
