@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-23 14:04:58</sys_created_on>
+        <sys_id>18b6209d83dbd6103cf0c4b6feaad326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pay Refund.x_1593175_reembo_0.resolvedor_de_rh</sys_name>
+        <sys_package display_value="reembolso" source="x_1593175_reembo_0">0dd4411c839f92103cf0c4b6feaad3e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="reembolso">0dd4411c839f92103cf0c4b6feaad3e8</sys_scope>
+        <sys_ui_action display_value="Pay Refund">66f1dea8831b16103cf0c4b6feaad310</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_18b6209d83dbd6103cf0c4b6feaad326</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 14:04:58</sys_updated_on>
+        <sys_user_role display_value="x_1593175_reembo_0.resolvedor_de_rh" name="x_1593175_reembo_0.resolvedor_de_rh">9bf50d5c839f92103cf0c4b6feaad3fd</sys_user_role>
+    </sys_ui_action_role>
+</record_update>
